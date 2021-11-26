@@ -75,8 +75,8 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #ffffff;
+  color: #111;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -84,14 +84,16 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #111;
+  color: #f2f2f2;
 }
 
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
-  margin-left: 35%;
-  margin-top: 5%;
+  margin-right:auto;
+  margin-left: auto;
+  margin-top: 4%;
   width: 400px;
   padding: 20px;
 }
@@ -101,7 +103,11 @@ input[type=submit]:hover {
 }
 #divform{
 	background-color: rgba(255, 255, 255, 0.493);
-    padding-top: 10px;
+  padding-top: 10px;
 	padding-bottom: 10px;
-    margin-top: 10%;
+  margin-top: 5%;
+}
+#mapa{
+  margin-left: 35%;
+  margin-top: 10%;
 }
