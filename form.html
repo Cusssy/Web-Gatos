@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <title>Contacta con nosotros</title>
 </head>
 <body>
+  <img id="miniicono" src="img/logo_transparente.png">
     <ul>
 		<li class="submenu"><a href="index.html">Inicio</a></li>
 		<li class="submenu"><a class="activado" href="form.html">Contacta con nosotros</a></li>
 		<li class="submenu"><a href="mapa.html">¿Donde estamos?</a></li>
 	  </ul>
-      <div id="divform">
-        <h1 id="textoform">Rellena este formulario para recibir tu gato</h1>
+      <div class="divtitulo">
+        <h1 class="textodiv">Rellena este formulario para recibir tu gato</h1>
       </div>
     <div class="container">
         <form action="/action_page.php">
@@ -39,7 +42,8 @@
           <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
       
-          <input type="submit" value="Submit">
+          
+          <a id="botonform" href="sumbit.html">Enviar</a>
         </form>
       </div>
             
