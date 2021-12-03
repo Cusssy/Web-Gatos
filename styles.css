@@ -110,8 +110,11 @@ input[type=text], select, textarea {
   margin-top: 5%;
 }
 #mapa{
-  margin-left: 35%;
-  margin-top: 10%;
+  margin: 0 auto;
+}
+#mapadiv{
+  width: 100%;
+  text-align: center;
 }
 #icono{
  width: 25%;
@@ -122,5 +125,9 @@ input[type=text], select, textarea {
   float: right;
   position: relative;
   width: 10%;
-  margin-top: -2%;
+  margin-top: 0;
+}
+.textofotos{
+	text-align: center;
+	font-size: 40px;
 }
